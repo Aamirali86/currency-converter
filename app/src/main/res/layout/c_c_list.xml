@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/stopscanheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_list" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dip"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edtserch"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="05dip"
+            android:layout_weight="2"
+            android:background="@drawable/textbox_150"
+            android:ellipsize="end"
+            android:hint="@string/search"
+            android:paddingLeft="10dip"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_sort"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="05dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_150changeimage"
+            android:text="@string/Sort_by_Code"
+            android:textColor="@color/textwhitecolor"
+            android:textSize="@dimen/text_18size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lstc_c_list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="05dip"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/graycolordevider"
+            android:dividerHeight="1dip"
+            android:fastScrollEnabled="true" >
+        </ListView>
+    </LinearLayout>
+
+<!--     <include -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         layout="@layout/adview_layout" -->
+<!--         android:background="@color/backgroundblackcolor" /> -->
+
+</LinearLayout>

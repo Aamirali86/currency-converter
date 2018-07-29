@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/stopscanheader"
+        layout="@layout/header_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/backgroundblackcolor"
+        android:orientation="vertical"></LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/setting_header"
+        android:padding="05dip"
+        android:text="@string/Update_settings"
+        android:textColor="@color/textwhitecolor"
+        android:textSize="@dimen/text_18size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/llOffline_Mode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtOffline_Mode"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="05dip"
+            android:layout_weight="1"
+            android:text="@string/Offline_Mode"
+            android:textSize="@dimen/text_18size" />
+
+        <ImageView
+            android:id="@+id/imgOffline_Mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/backgroundblackcolor"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAutomatic_update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtAutomatic_update"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="05dip"
+            android:layout_weight="1"
+            android:text="@string/Automatic_update"
+            android:textSize="@dimen/text_18size" />
+
+        <ImageView
+            android:id="@+id/imgAutomatic_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/backgroundblackcolor"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llUpdate_Frequency"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="05dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="05dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblUpdate_Frequency"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Update_Frequency"
+                android:textSize="@dimen/text_18size" />
+
+            <TextView
+                android:id="@+id/txtUpdate_Frequency"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Update_Frequency" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/backgroundblackcolor"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llWLAN_Mode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="05dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="05dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblWLAN_Mode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/WLAN_Mode"
+                android:textSize="@dimen/text_18size" />
+
+            <TextView
+                android:id="@+id/txtWLAN_Mode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Update_via_wlan_only" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgWLAN_Mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_off" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtAppearance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/setting_header"
+        android:padding="05dip"
+        android:text="@string/Appearance"
+        android:textColor="@color/textwhitecolor"
+        android:textSize="@dimen/text_18size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/llNumber_of_decimals"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dip"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="05dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblNumber_of_decimals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Number_of_decimals"
+                android:textSize="@dimen/text_18size" />
+
+            <TextView
+                android:id="@+id/txtNumber_of_decimals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Number_of_decimals" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/backgroundblackcolor"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llhour12_clock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txthour12_clock"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="05dip"
+            android:layout_weight="1"
+            android:text="@string/hour12_clock"
+            android:textSize="@dimen/text_18size" />
+
+        <ImageView
+            android:id="@+id/img12_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/backgroundblackcolor"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-5011464080435742/4081220913" />
+
+
+</LinearLayout>

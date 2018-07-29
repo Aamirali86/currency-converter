@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="app_top">Currency</string>
+    <string name="app_bottom">Converter</string>
+    
+    
+    <string name="No_Internet_Connection">No Internet Connection</string>
+    <string name="About_US">About Us</string>
+    <string name="OK">OK</string>
+    <string name="Send">Send</string>
+    <string name="Cancel">Cancel</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Info">Info</string>
+    <string name="Rate_This_App">Rate This App</string>
+    
+    <string name="MoreApps">More Apps</string>
+    
+    <string name="About_US_link">  http://www.techytec.com</string>
+    
+    <string name="ContactUS">Contact Us</string>
+    <string name="Contact_from">Contact from</string>
+    <string name="Share_App">Share App</string>
+    <string name="Share_Andoird">Android</string>
+    <string name="Share_Application">Application</string>
+    
+    <string name="Share_App_subject">"I like"</string>
+    
+    <string name="Share_App_Body_top">"
+        Hello,
+        I like "</string>
+    <string name="Share_App_Body_middle">" by techytec. Please download from following link
+        "</string>
+    <string name="Share_App_Body_bottom">"
+        Thanks"</string>
+    
+    <string name="d1">1d</string>
+    <string name="d5">5d</string>
+    <string name="m3">3m</string>
+    <string name="y1">1y</string>
+    <string name="y2">2y</string>
+    <string name="y5">5y</string>
+    <string name="Offline_Mode">Offline Mode</string>
+    <string name="Automatic_update">Automatic Update</string>
+    <string name="sec30">30 sec</string>
+    <string name="min1">1 min</string>
+    <string name="min2">2 min</string>
+    <string name="min5">5 min</string>
+    <string name="min10">10 min</string>
+    <string name="min20">20 min</string>
+    <string name="min30">30 min</string>
+    <string name="hour1">1 hour</string>
+    <string name="Once_a_Day">Once a Day</string>
+    <string name="WLAN_Mode">WLAN Mode</string>
+    <string name="Update_settings">Update Settings</string>
+    <string name="Update">Update</string>
+    <string name="Update_Frequency">Update Refresh Interval</string>
+    <string name="Update_via_wlan_only">Update via WLAN only</string>
+    <string name="Uncheck_WLAN_Mode">Uncheck WLAN Mode in the setting</string>
+    <string name="Uncheck_Offline_Mode">Uncheck Offline Mode in the setting</string>
+    <string name="Appearance">Appearance</string>
+    <string name="Number_of_decimals">Number of Decimals</string>
+    <string name="hour12_clock">12h Clock</string>
+    <string name="Language">Language</string>
+    <string name="Set_language_for_currency_names">Set language for currency names</string>
+    <string name="Theme">Theme</string>
+    <string name="choose_a_currency">Choose a currency</string>
+    <string name="retry">retry</string>
+    <string name="Last_Update">Last Update</string>
+    <string name="Automatic_Update_disabled">Automatic Update disabled</string>
+    <string name="search">search</string>
+    <string name="Sort_by_Name">Sort by- Name</string>
+    <string name="Sort_by_Code">Sort by- Code</string>
+</resources>

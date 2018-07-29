@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_news"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgitem"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_margin="05dip"
+        android:src="@drawable/no_image" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:textColor="@color/textblackcolor"
+            android:textSize="@dimen/text_18size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:textColor="@color/textblackcolor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dip"
+         android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="05dip"
+            android:src="@drawable/arrow" />
+
+       
+    </LinearLayout>
+
+</LinearLayout>
